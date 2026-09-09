@@ -4,8 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "30 21 * * 1-5"
-      timezone: "America/New_York"
+    - cron: "30 02 * * 2-6"
 
 jobs:
   check-macd:
